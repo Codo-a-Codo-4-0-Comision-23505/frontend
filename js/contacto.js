@@ -18,7 +18,7 @@ window.onload = function () {
                     if (response.status == 200) {
                         // Agregamos una espera de 3 segundos para dar feedback al usuario..
                         setTimeout( () => {
-                            mySubmitButton.innerHTML = "Submit"
+                            mySubmitButton.innerHTML = "Enviar"
                             mySubmitButton.disabled = false;
                             form.reset()
                             form.classList.remove('was-validated');
