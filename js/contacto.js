@@ -23,7 +23,9 @@ window.onload = function () {
                             form.reset()
                             form.classList.remove('was-validated');
                         }, 3000);
-
+                    } else {
+                        mySubmitButton.innerHTML = "Re-intentar"
+                        mySubmitButton.disabled = false;
                     }
                     //response.json()
                 })
